@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Video Prompt Lab — AI Video Prompt Workflow</title>
+    <meta
+      name="description"
+      content="Turn one ShotSpec YAML into model-specific prompts for Sora, Veo, Runway, Kling, and Seedance, plus lint reports and eval scorecards."
+    />
+    <meta property="og:title" content="Video Prompt Lab" />
+    <meta
+      property="og:description"
+      content="A local-first AI-video prompt workflow: ShotSpec YAML -> prompts -> lint -> eval scorecard."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://yyh123123813.github.io/video-prompt-lab/" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero">
+        <p class="eyebrow">Local-first AI-video prompt ops</p>
+        <h1>Video Prompt Lab</h1>
+        <p class="lede">
+          Turn one ShotSpec YAML into model-specific prompts for Sora, Veo, Runway,
+          Kling, and Seedance — then generate a lint report and evaluation scorecard
+          before you spend more credits.
+        </p>
+        <div class="cta-row">
+          <a class="button primary" href="https://github.com/YYH123123813/video-prompt-lab">Open GitHub repo</a>
+          <a class="button" href="https://github.com/YYH123123813/video-prompt-lab/releases/tag/v0.1.0">View release</a>
+          <a class="button" href="https://github.com/YYH123123813/video-prompt-lab/issues/1">Leave feedback</a>
+        </div>
+        <div class="badges">
+          <img alt="GitHub stars" src="https://img.shields.io/github/stars/YYH123123813/video-prompt-lab?style=flat-square" />
+          <img alt="GitHub forks" src="https://img.shields.io/github/forks/YYH123123813/video-prompt-lab?style=flat-square" />
+          <img alt="GitHub issues" src="https://img.shields.io/github/issues/YYH123123813/video-prompt-lab?style=flat-square" />
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>The workflow</h2>
+        <ol class="steps">
+          <li>Write one structured ShotSpec YAML brief.</li>
+          <li>Render prompts for multiple video models from the same source spec.</li>
+          <li>Catch operational mistakes with a lint report.</li>
+          <li>Compare outputs using a reusable scorecard instead of guessing.</li>
+        </ol>
+        <pre><code>idea -> ShotSpec YAML -> prompts -> lint -> scorecard -> iteration</code></pre>
+      </section>
+
+      <section class="grid">
+        <article class="card">
+          <h3>Why it is useful</h3>
+          <ul>
+            <li>Reduces prompt rewrite time across models.</li>
+            <li>Preserves first-frame, camera, and motion intent.</li>
+            <li>Flags credit-wasting prompt omissions before generation.</li>
+            <li>Works locally without model API keys.</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Included examples</h3>
+          <ul>
+            <li>Vertical product ad</li>
+            <li>Faceless YouTube Short</li>
+            <li>Mini-drama scene</li>
+            <li>China short-video template</li>
+          </ul>
+        </article>
+        <article class="card">
+          <h3>Quick start</h3>
+          <pre><code>git clone https://github.com/YYH123123813/video-prompt-lab.git
+cd video-prompt-lab
+python3 -m pip install -r requirements.txt
+python3 video_prompt_lab.py examples/product-ad.yaml \
+  --models veo,sora,kling,seedance \
+  --out outputs/product-ad</code></pre>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h2>Who this is for</h2>
+        <div class="audience">
+          <span>AI-video creators</span>
+          <span>Prompt engineers</span>
+          <span>Short-form content teams</span>
+          <span>Agent builders</span>
+          <span>Multi-model evaluators</span>
+        </div>
+      </section>
+
+      <section class="panel final">
+        <h2>What to do next</h2>
+        <p>
+          Try one example, generate prompts for at least two models, and leave a short
+          note in the feedback issue about which model produced the strongest first pass.
+        </p>
+        <a class="button primary" href="https://github.com/YYH123123813/video-prompt-lab/issues/1">Post feedback on GitHub</a>
+      </section>
+    </main>
+  </body>
+</html>
