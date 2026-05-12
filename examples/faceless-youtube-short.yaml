@@ -1,0 +1,32 @@
+title: The 10-Second Battery Myth
+goal: Explain why phone batteries feel worse in cold weather.
+platform: YouTube Shorts
+duration: 10s
+aspect_ratio: 9:16
+subject:
+  object: Smartphone on a snowy cafe table
+  visual_metaphor: Battery icon slowly shrinking as snow lands nearby
+character_consistency:
+  anchor: Same black smartphone with one blue sticker in every frame
+scene:
+  first_frame: Close-up of a phone at 38% battery beside a steaming coffee cup
+  final_frame: Battery icon stabilizes after the phone is warmed by a hand
+camera:
+  framing: top-down macro to angled close-up
+  movement: smooth slider move from battery icon to snowy background
+motion:
+  actions:
+    - snowflakes land near the phone
+    - vapor rises from the cup
+    - hand gently slides the phone closer to the cup
+lighting: cold morning window light, soft steam glow
+audio_dialogue:
+  narration: Cold slows the chemistry inside lithium batteries, so the percentage can drop faster than expected.
+  sfx: soft cafe ambience
+text_overlays:
+  - Cold does not kill your battery.
+  - It slows the chemistry.
+negative_constraints:
+  - no unreadable battery text
+  - no brand logos
+  - no cracked phone screen

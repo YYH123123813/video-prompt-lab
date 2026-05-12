@@ -1,0 +1,30 @@
+title: Neon Tea Launch
+goal: Launch a premium bottled tea in a 9:16 short ad.
+platform: TikTok / Reels
+duration: 8s
+aspect_ratio: 9:16
+subject:
+  product: Glass bottle of sparkling oolong tea
+  setting: Rainy neon street market at night
+character_consistency:
+  anchor: Same transparent bottle, gold cap, green label in every shot
+scene:
+  first_frame: Bottle on wet black stone, neon signs reflected in puddles
+  final_frame: Hand picks up the bottle; condensation catches light
+camera:
+  framing: macro close-up into medium product reveal
+  movement: slow push-in, then slight handheld lift
+motion:
+  actions:
+    - condensation runs down the bottle
+    - neon reflections ripple in the puddle
+lighting: teal and amber neon, glossy highlights
+audio_dialogue:
+  music: soft future-garage pulse
+  sfx: rain, bottle cap click
+text_overlays:
+  - Cold oolong. City energy.
+negative_constraints:
+  - no distorted label text
+  - no extra bottles
+  - no warped hands

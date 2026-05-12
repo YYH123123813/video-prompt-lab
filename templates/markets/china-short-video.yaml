@@ -1,0 +1,7 @@
+market: China short video
+platforms: Douyin / Xiaohongshu / Jimeng
+aspect_ratio: 9:16
+notes:
+  - Hook must be visually clear in the first second.
+  - Leave safe space for Chinese subtitles.
+  - Prefer concrete everyday objects and first-person camera when testing local-life content.

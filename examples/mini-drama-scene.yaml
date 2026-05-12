@@ -1,0 +1,31 @@
+title: Last Train Home
+goal: Create a quiet emotional drama beat about leaving a small town.
+platform: Reels / Shorts
+duration: 12s
+aspect_ratio: 9:16
+subject:
+  character: 22-year-old woman with short black hair, beige coat, red canvas suitcase
+  setting: small-town train platform at dusk
+character_consistency:
+  anchor: Same beige coat, red suitcase, short black hair, tired but determined expression
+scene:
+  first_frame: She stands under a flickering platform lamp while the train headlights appear far away
+  final_frame: She looks back once, then steps into the train doorway
+camera:
+  framing: medium close-up, then wider platform reveal
+  movement: slow handheld follow from behind, gentle push toward the train door
+motion:
+  actions:
+    - train light grows brighter
+    - suitcase wheels roll over wet concrete
+    - she pauses and looks back once
+lighting: blue dusk, warm platform lamp, slight rain reflections
+audio_dialogue:
+  dialogue: I will come back when I can choose my own life.
+  sfx: distant train, platform speaker, light rain
+text_overlays:
+  - Leaving is not betrayal.
+negative_constraints:
+  - no face changes between shots
+  - no extra suitcase
+  - no exaggerated crying

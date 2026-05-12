@@ -1,0 +1,33 @@
+title: 县城第一杯热豆浆
+goal: Build a warm first-person China short-video opening for a local breakfast account.
+platform: Douyin / Xiaohongshu / Jimeng
+market_note: 中文短视频模板；主仓库仍以英文工作流为主。
+duration: 9s
+aspect_ratio: 9:16
+subject:
+  product: steaming cup of soy milk and crispy youtiao
+  setting: small county breakfast stall at 6:40 AM
+character_consistency:
+  anchor: first-person hands in dark jacket sleeves; same soy milk cup with red paper sleeve
+scene:
+  first_frame: First-person view of steam rising from soy milk while the stall owner passes youtiao across the counter
+  final_frame: The cup is lifted toward a quiet street sunrise
+camera:
+  framing: first-person close-up, food in foreground, county street in background
+  movement: natural handheld lift from counter to street view
+motion:
+  actions:
+    - steam curls upward
+    - youtiao is wrapped in paper
+    - first-person hand lifts the soy milk
+lighting: early morning warm stall light, soft sunrise at street edge
+audio_dialogue:
+  narration: 县城早上的第一杯热豆浆，能把人从梦里叫回来。
+  sfx: oil sizzling, bicycle bell, soft street chatter
+text_overlays:
+  - 县城早晨 6:40
+  - 第一口热豆浆
+negative_constraints:
+  - no messy subtitles
+  - no extra fingers
+  - no distorted food texture

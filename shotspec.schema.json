@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Video Prompt Lab ShotSpec",
+  "type": "object",
+  "required": ["title", "goal", "duration", "aspect_ratio", "subject", "scene", "camera"],
+  "properties": {
+    "title": {"type": "string"},
+    "goal": {"type": "string"},
+    "platform": {"type": "string"},
+    "duration": {"type": "string"},
+    "aspect_ratio": {"type": "string"},
+    "subject": {"type": "object"},
+    "character_consistency": {"type": "object"},
+    "scene": {
+      "type": "object",
+      "properties": {
+        "first_frame": {"type": "string"},
+        "final_frame": {"type": "string"}
+      }
+    },
+    "camera": {
+      "type": "object",
+      "properties": {
+        "framing": {"type": "string"},
+        "movement": {"type": "string"}
+      }
+    },
+    "motion": {"type": "object"},
+    "lighting": {"type": "string"},
+    "audio_dialogue": {"type": "object"},
+    "text_overlays": {"type": "array", "items": {"type": "string"}},
+    "negative_constraints": {"type": "array", "items": {"type": "string"}}
+  }
+}
