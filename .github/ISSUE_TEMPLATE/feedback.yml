@@ -1,0 +1,30 @@
+name: Prompt workflow feedback
+description: Share feedback after trying Video Prompt Lab
+title: "Feedback: <model or workflow>"
+labels: [feedback]
+body:
+  - type: dropdown
+    id: model
+    attributes:
+      label: Model tested
+      options:
+        - Sora
+        - Veo
+        - Runway
+        - Kling
+        - Seedance / Jimeng
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: result
+    attributes:
+      label: What happened?
+      description: Do not paste private briefs, API keys, or client information.
+    validations:
+      required: true
+  - type: textarea
+    id: scorecard
+    attributes:
+      label: Optional scorecard row
+      description: Paste an anonymized scorecard row if useful.

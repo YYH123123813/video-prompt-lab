@@ -133,6 +133,8 @@ Agents can use `skills/video-prompt-lab/SKILL.md` as a procedural wrapper:
 
 ## Contributing
 
+See [CONTRIBUTING.md](CONTRIBUTING.md) for local verification and contribution guidelines.
+
 Useful contributions:
 
 - new model style notes
